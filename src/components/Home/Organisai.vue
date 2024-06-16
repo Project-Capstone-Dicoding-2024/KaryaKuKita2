@@ -8,7 +8,8 @@
 <div class="container">
   <div class="d-flex justify-content-between align-items-center mt-5">
             <div class="section-title"><h1><p>Organisasi</p></h1></div>
-            <button class="btn btn-primary btn-view-more">Lihat Selengkapnya</button>
+            <RouterLink to="/daftarorganisasi" class="btn btn-primary btn-view-more">Lihat Selengkapnya</RouterLink>
+            <!-- <button class="btn btn-primary btn-view-more">Lihat Selengkapnya</button> -->
         </div>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <!-- Card 1 -->

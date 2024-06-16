@@ -3,9 +3,11 @@
 import Experience from "@/components/Resume/Experience.vue";
 import Education from "@/components/Resume/Education.vue";
 import Skill from "@/components/Resume/Skill.vue";
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
+  <Navbar/>
   <div class="container px-5 my-5">
     <div class="text-center mb-5">
       <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>

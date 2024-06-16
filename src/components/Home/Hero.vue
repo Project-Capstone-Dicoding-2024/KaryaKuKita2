@@ -29,7 +29,7 @@ import ProfilePic from "@/components/Home/ProfilePic.vue";
             </div>
             <p > <b>Turn your skills into goodness!</b></p>
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-              <RouterLink to="/resume" class="btn btn-custom  btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Resume</RouterLink>
+              <RouterLink to="/list" class="btn btn-custom  btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Resume</RouterLink>
             </div>
           </div>
         </div>

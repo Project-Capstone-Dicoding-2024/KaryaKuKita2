@@ -1,4 +1,6 @@
 <script setup>
+import Navbar from "@/components/Navbar.vue";
+
 const cardData = {
   volunteerCount: 50,
   location: 'Jakarta',
@@ -19,6 +21,7 @@ const cardData = {
 </script>
 
 <template>
+  <Navbar/>
  <div class="container mt-5 mb-5">
     <div class="card">
       <div class="row no-gutters">

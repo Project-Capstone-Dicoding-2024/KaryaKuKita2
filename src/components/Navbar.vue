@@ -14,12 +14,14 @@
       </a>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 small fw-bolder">
-                    <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="/resume" class="nav-link">Cari Aktivitas</a></li>
-                    <li class="nav-item"><a href="/project" class="nav-link">Daftar Organisasi</a></li>
-                   
+                    <li class="nav-item"><a href="/home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/list" class="nav-link">Cari Aktivitas</a></li>
+                    <li class="nav-item"><a href="/daftarorganisasi" class="nav-link">Daftar Organisasi</a></li>
+                    <li class="nav-item"><a href="/profil" class="nav-link">Profil</a></li>
                   </ul>
-                  <button type="button" class="btn btn-outline-warning"><b class="text-black"> Login</b></button>
+                  <RouterLink to="/" class="btn btn-outline-danger">
+          <b class="text-black">Log Out</b>
+        </RouterLink>
             </div>
     </div>
 

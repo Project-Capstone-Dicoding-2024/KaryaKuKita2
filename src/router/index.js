@@ -7,18 +7,23 @@ import List from "@/views/CariAktivitas.vue";
 import Detail from "@/views/DetailList.vue";
 import DaftarOrganisasi from "@/views/DaftarOrganisasi.vue";
 import DetailOrganisasi from "@/views/DetailOrganisasi.vue";
+import Login from "@/views/Login.vue";
+import Register from "@/views/Register.vue";
+import EditUser from "@/views/profil/EditUser.vue";
+import OrganisasiDisukai from "@/views/profil/OrganisasiDisukai.vue";
+import ProfilUser from "@/views/profil/ProfilUser.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'login',
+      component: Login 
     },
     {
       path: '/list',
-      name: 'lost',
+      name: 'list',
       component: List
     },
     {
@@ -36,6 +41,34 @@ const router = createRouter({
       name: 'detailorganisasi',
       component: DetailOrganisasi
     },
+    {
+      path: '/home',
+      name: 'home',
+      component: HomeView
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
+    },
+    {
+      path: '/profil',
+      name: 'profil',
+      component: ProfilUser
+    },
+    //
+    {
+      path: '/organisasilike',
+      name: 'organisasilike',
+      component: OrganisasiDisukai
+    },
+    //
+    {
+      path: '/edituser',
+      name: 'edituser',
+      component: EditUser
+    },
+    //
     // {
     //   path: '/resume',
     //   name: 'resume',
