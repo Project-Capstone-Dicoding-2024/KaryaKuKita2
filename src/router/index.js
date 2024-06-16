@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 // import ProjectView from "@/views/ProjectView.vue";
 // import ContactView from "@/views/ContactView.vue";
 import List from "@/views/CariAktivitas.vue";
+import Detail from "@/views/DetailList.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,11 @@ const router = createRouter({
       path: '/list',
       name: 'lost',
       component: List
+    },
+    {
+      path: '/detail',
+      name: 'detail',
+      component: Detail
     },
     // {
     //   path: '/resume',
