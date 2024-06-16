@@ -14,10 +14,10 @@
       </a>
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 small fw-bolder">
-                    <li class="nav-item"><a href="/home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="/list" class="nav-link">Cari Aktivitas</a></li>
-                    <li class="nav-item"><a href="/daftarorganisasi" class="nav-link">Daftar Organisasi</a></li>
-                    <li class="nav-item"><a href="/profil" class="nav-link">Profil</a></li>
+                    <li class="nav-item"> <RouterLink to="/home"><a class="nav-link">Home</a></RouterLink></li>
+                    <li class="nav-item"><RouterLink to="/list"><a class="nav-link">Cari Aktivitas</a></RouterLink></li>
+                    <li class="nav-item"><RouterLink to="/daftarorganisasi"><a class="nav-link">Daftar Organisasi</a></RouterLink></li>
+                    <li class="nav-item"><RouterLink to="/profil"><a  class="nav-link">Profil</a></RouterLink></li>
                   </ul>
                   <RouterLink to="/" class="btn btn-outline-danger">
           <b class="text-black">Log Out</b>

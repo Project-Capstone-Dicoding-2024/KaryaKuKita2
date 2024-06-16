@@ -24,8 +24,8 @@
   const router = useRouter();
   
   const user = ref({
-    name: 'John Doe',
-    photo: 'https://via.placeholder.com/150'
+    name: 'Falah Salahudin',
+    photo: '/images/profil.jpeg'
   });
   
   const navigateTo = (page) => {
