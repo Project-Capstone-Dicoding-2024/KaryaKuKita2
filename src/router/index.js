@@ -5,6 +5,7 @@ import HomeView from '../views/HomeView.vue'
 // import ContactView from "@/views/ContactView.vue";
 import List from "@/views/CariAktivitas.vue";
 import Detail from "@/views/DetailList.vue";
+import DaftarOrganisasi from "@/views/DaftarOrganisasi.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,11 @@ const router = createRouter({
       path: '/detail',
       name: 'detail',
       component: Detail
+    },
+    {
+      path: '/daftarorganisasi',
+      name: 'daftarorganisasi',
+      component: DaftarOrganisasi
     },
     // {
     //   path: '/resume',
