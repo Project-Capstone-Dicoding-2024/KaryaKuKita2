@@ -9,12 +9,12 @@ const cardData = {
   email: 'info@example.com',
   activities: [
     {
-      imageUrl: '/images/even.png',
-      title: 'Activity 1'
+      imageUrl: '/images/semnas.jpeg',
+      title: 'Seminar Nasional 2024'
     },
     {
-      imageUrl: '/images/even.png',
-      title: 'Activity 2'
+      imageUrl: '/images/workshop.jpeg',
+      title: 'Workshop'
     }
   ]
 };
@@ -27,8 +27,8 @@ const cardData = {
       <div class="row no-gutters">
         <div class="col-md-8">
           <div class="card-body">
-            <h1 class="card-title text-center mt-5">Komunitas Sehat Jasmani</h1>
-            <p class="card-text text-center">Komunitas Sehat Jasmani, Merupakan yayasan pendidikan yang bergerak pada 2 aspek utama, jasmani dan pembentukan karakter</p>
+            <h1 class="card-title text-center mt-5">Pandora ID</h1>
+            <p class="card-text text-center">Pandora ID merupakan organisasi yang bergerak dibidang Pengembangan Sumber Daya Manusia, Berfokus pada pemanfaatan dan pengembangan kualitas individu agar mereka yang ikut berpartisipasi bisa mengembangakan potensi pada dirinya</p>
             <div class="card-category text-center mt-3">
               <span class="badge bg-primary">Pendidikan</span>
               <span class="badge bg-primary ms-5">Olahraga</span>
@@ -36,7 +36,7 @@ const cardData = {
           </div>
         </div>
         <div class="col-md-4">
-          <img src="/images/Los angeles 2.png" class="card-img" alt="Gambar Placeholder">
+          <img src="/images/organization.png" class="card-img" alt="Gambar Placeholder">
         </div>
       </div>
     </div>
@@ -90,6 +90,12 @@ const cardData = {
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+.card-img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+    max-width: 260px;
+}
 .card-body {
   padding: 1rem;
 }

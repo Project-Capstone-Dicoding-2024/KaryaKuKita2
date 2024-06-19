@@ -28,9 +28,9 @@
   const router = useRouter();
   
   const organizations = ref([
-    { id: 1, name: 'Organization 1', image: '/images/Los angeles 2.png' },
-    { id: 2, name: 'Organization 2', image: '/images/Los angeles 2.png' },
-    { id: 3, name: 'Organization 3', image: '/images/Los angeles 2.png' }
+    { id: 1, name: 'Organization 1', image: '/images/organization.png' },
+    { id: 2, name: 'Organization 2', image: '/images/organization.png' },
+    { id: 3, name: 'Organization 3', image: '/images/organization.png' }
   ]);
   
   const navigateTo = (page) => {
