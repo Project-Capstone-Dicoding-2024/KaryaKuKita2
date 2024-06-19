@@ -88,7 +88,7 @@ export default {
               <i class="bi bi-calendar icon-cstm"></i>
               <p class="card-text mb-0 ms-3">{{experience.tanggal}}</p>
             </div>
-            <RouterLink class="btn btn-primary mt-3" to="/detailAktivitas">Lihat Selengkapnya</RouterLink>
+            <RouterLink class="btn btn-primary mt-3" to="/detail">Lihat Selengkapnya</RouterLink>
             <!-- <router-link  class="btn btn-primary mt-3">Lihat Selengkapnya</router-link> -->
           </div>
         </div>
