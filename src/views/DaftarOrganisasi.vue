@@ -5,49 +5,49 @@ import { ref } from 'vue';
 
 const cards = ref([
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
   {
-    imageUrl: '/images/Los angeles 2.png',
-    title: 'Komunitas Sehat Jasmani',
-    description: 'Ambon, Maluku'
+    imageUrl: '/images/organization.png',
+    title: 'Pandora ID',
+    description: 'Jakarta, DKI Jakarta'
   },
 ]);
 </script>
