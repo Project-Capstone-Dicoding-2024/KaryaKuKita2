@@ -25,7 +25,7 @@
 
           <!-- Login Button -->
           <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
-          <button type="button" class="btn btn-secondary btn-lg btn-block mt-2" @click="loginWithGoogle">Login with Google</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block mt-2 ms-3" @click="loginWithGoogle">Login with Google</button>
         </form>
 
         <!-- Register Link -->

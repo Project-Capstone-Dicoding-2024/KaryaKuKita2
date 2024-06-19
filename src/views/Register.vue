@@ -26,7 +26,7 @@
 
           <!-- Register Button -->
           <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
-          <button type="button" class="btn btn-secondary btn-lg btn-block mt-2" @click="registerWithGoogle">Register with Google</button>
+          <button type="button" class="btn btn-secondary btn-lg btn-block mt-2 ms-3" @click="registerWithGoogle">Register with Google</button>
         </form>
 
         <!-- Login Link -->
