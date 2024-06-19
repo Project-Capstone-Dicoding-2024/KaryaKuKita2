@@ -3,19 +3,19 @@
       <div class="row">
         <!-- Gambar di sebelah kiri -->
         <div class="col-md-6 mb-4">
-          <img src="/images/even.png" class="img-fluid rounded" alt="Gambar Event">
+          <img src="/images/semnas.jpeg" class="img-fluid rounded" alt="Gambar Event">
         </div>
         <!-- Card informasi di sebelah kanan -->
         <div class="col-md-6">
           <div class="card shadow border-0 rounded-4 h-100">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h4 class="card-title text-center">Webinar ABC x Cakep</h4>
-              <p class="card-text text-center text-warning-emphasis">Climate Community</p>
+              <h4 class="card-title text-center">Seminar Nasional</h4>
+              <p class="card-text text-center text-warning-emphasis">Pandora ID</p>
               <ul class="list-group mb-3">
-                <li class="list-group-item"><strong>Jadwal Pendaftaran:</strong> 20 Mei 2019 - 29 Mei 2019</li>
-                <li class="list-group-item"><strong>Lokasi:</strong> Ambon</li>
+                <li class="list-group-item"><strong>Jadwal Pendaftaran:</strong> 20 Mei 2024 - 10 Juni 2024</li>
+                <li class="list-group-item"><strong>Lokasi:</strong> Jakarta</li>
               </ul>
-              <h4 class="card-title text-center text-danger">Batas Registrasi : 29 Maret 2019</h4>
+              <h4 class="card-title text-center text-danger">Batas Registrasi : 10 Juni 2024</h4>
               <button @click="showModal = true" class="btn btn-primary">Daftar Sekarang</button>
             </div>
           </div>
@@ -80,4 +80,3 @@
     border: 1px solid rgba(0, 0, 0, 0.125);
   }
   </style>
-  
