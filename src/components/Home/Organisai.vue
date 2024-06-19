@@ -15,10 +15,9 @@
     <!-- Card 1 -->
     <div class="col">
       <div class="card h-100 rounded">
-        <img src="/images/organisasi.png" class="card-img-top" alt="Gambar 1">
+        <img src="/images/organization3.png" class="card-img-top" alt="Gambar 1">
         <div class="card-body">
-          <h4 class="card-title"><b>20 Komunitas & Organisasi 
-            Pecinta Alam</b></h4>
+          <h4 class="card-title"><b>Study Group</b></h4>
         </div>
       </div>
     </div>
@@ -26,10 +25,9 @@
     <!-- Card 2 -->
     <div class="col">
       <div class="card h-100">
-        <img src="/images/organisasi.png" class="card-img-top" alt="Gambar 2">
+        <img src="/images/organization.png" class="card-img-top" alt="Gambar 2">
         <div class="card-body">
-          <h4 class="card-title"><b>20 Komunitas & Organisasi 
-            Pecinta Alam</b></h4>
+          <h4 class="card-title"><b>Pandora ID</b></h4>
         </div>
       </div>
     </div>
@@ -37,10 +35,9 @@
     <!-- Card 3 -->
     <div class="col">
       <div class="card h-100">
-        <img src="/images/organisasi.png" class="card-img-top" alt="Gambar 3">
+        <img src="/images/logo.png" class="card-img-top" alt="Gambar 3">
         <div class="card-body">
-          <h4 class="card-title"><b>20 Komunitas & Organisasi 
-            Pecinta Alam</b></h4>
+          <h4 class="card-title"><b>Mayapala</b></h4>
         </div>
       </div>
     </div>
